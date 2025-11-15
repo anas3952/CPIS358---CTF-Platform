@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body id="top">
+
+    <header class="main-header">
+        <nav class="container">
+            <img src="images/logo.png" alt="Logo" usemap="#logoMap" width="150">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <map name="logoMap">
+            <area shape="rect" coords="0,0,150,150" href="index.html" alt="Home">
+        </map>
+
+        <h1>Welcome, User!</h1>
+
+        <section class="dashboard-layout">
+            
+            <div class="challenge-list">
+                <h2>Available Challenges</h2>
+                <ul id="challenges">
+                    <li class="challenge-item">
+                        <h3>Web - SQL Injection</h3>
+                        <p>Find the vulnerability in the login page.</p>
+                        <button class="btn" onclick="selectChallenge(this)">Start</button>
+                    </li>
+                    <li class="challenge-item">
+                        <h3>Crypto - Simple Cipher</h3>
+                        <p>Decode the hidden message.</p>
+                        <button class="btn" onclick="selectChallenge(this)">Start</button>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="leaderboard">
+                <h2>Leaderboard</h2>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Username</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>AdminUser</td>
+                            <td>1500</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>CyberPro</td>
+                            <td>1200</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Newbie</td>
+                            <td>100</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+        
+        <section id="dynamic-section" class="form-container">
+            <h2>Challenge Status</h2>
+            <p id="challenge-status-text">Please select a challenge to start.</p>
+            <img id="challenge-status-image" src="" alt="Challenge Status" style="display:none; width:100px;">
+        </section>
+        
+    </main>
+
+    <footer class="container">
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
