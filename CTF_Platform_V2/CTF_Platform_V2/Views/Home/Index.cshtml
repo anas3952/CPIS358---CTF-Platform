@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Page";
+}
+
+<div class="text-center" style="margin-top: 50px;">
+    <img src="~/images/logo.png" alt="CTF Logo" style="width: 150px; margin-bottom: 20px;" />
+
+    <h1 class="display-4">Welcome to CTF Platform</h1>
+    <p class="lead">
+        The ultimate platform for cybersecurity training and challenges.
+        <br />
+        Build, Host, and Solve CTF challenges in real-time.
+    </p>
+
+    <hr class="my-4">
+
+    <p>Ready to test your skills?</p>
+
+    <div style="margin-top: 20px;">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a class="btn btn-primary btn-lg" href="/Challenges" role="button">Go to Dashboard</a>
+        }
+        else
+        {
+            <a class="btn btn-primary btn-lg" href="/Identity/Account/Login" role="button">Login</a>
+            <a class="btn btn-secondary btn-lg" href="/Identity/Account/Register" role="button">Sign Up</a>
+        }
+    </div>
+</div>
+
+<div class="row" style="margin-top: 60px;">
+    <div class="col-md-4">
+        <h3>Create Challenges</h3>
+        <p>Instructors can easily create and manage custom CTF challenges for their students.</p>
+    </div>
+    <div class="col-md-4">
+        <h3>Track Progress</h3>
+        <p>Real-time leaderboard and tracking system to monitor student performance.</p>
+    </div>
+    <div class="col-md-4">
+        <h3>Learn Security</h3>
+        <p>Hands-on practice with real-world security scenarios in a safe environment.</p>
+    </div>
+</div>

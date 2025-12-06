@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|d:\\documents\\kau\\4th year\\firstsemester\\courses\\cpis358(web)\\project\\ctfv2\\ctf_platform_v2\\ctf_platform_v2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|solutionrelative:ctf_platform_v2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|d:\\documents\\kau\\4th year\\firstsemester\\courses\\cpis358(web)\\project\\ctfv2\\ctf_platform_v2\\ctf_platform_v2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|solutionrelative:ctf_platform_v2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|d:\\documents\\kau\\4th year\\firstsemester\\courses\\cpis358(web)\\project\\ctfv2\\ctf_platform_v2\\ctf_platform_v2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|solutionrelative:ctf_platform_v2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|d:\\documents\\kau\\4th year\\firstsemester\\courses\\cpis358(web)\\project\\ctfv2\\ctf_platform_v2\\ctf_platform_v2\\controllers\\challengescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|solutionrelative:ctf_platform_v2\\controllers\\challengescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|d:\\documents\\kau\\4th year\\firstsemester\\courses\\cpis358(web)\\project\\ctfv2\\ctf_platform_v2\\ctf_platform_v2\\views\\challenges\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|solutionrelative:ctf_platform_v2\\views\\challenges\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|d:\\documents\\kau\\4th year\\firstsemester\\courses\\cpis358(web)\\project\\ctfv2\\ctf_platform_v2\\ctf_platform_v2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|solutionrelative:ctf_platform_v2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|d:\\documents\\kau\\4th year\\firstsemester\\courses\\cpis358(web)\\project\\ctfv2\\ctf_platform_v2\\ctf_platform_v2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|solutionrelative:ctf_platform_v2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|d:\\documents\\kau\\4th year\\firstsemester\\courses\\cpis358(web)\\project\\ctfv2\\ctf_platform_v2\\ctf_platform_v2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|solutionrelative:ctf_platform_v2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|d:\\documents\\kau\\4th year\\firstsemester\\courses\\cpis358(web)\\project\\ctfv2\\ctf_platform_v2\\ctf_platform_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762DBCFE-A63E-4B11-BFCD-31767FD23787}|CTF_Platform_V2\\CTF_Platform_V2.csproj|solutionrelative:ctf_platform_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "about.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Home\\about.cshtml",
+              "RelativeDocumentMoniker": "CTF_Platform_V2\\Views\\Home\\about.cshtml",
+              "ToolTip": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Home\\about.cshtml",
+              "RelativeToolTip": "CTF_Platform_V2\\Views\\Home\\about.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T20:42:58.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CTF_Platform_V2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CTF_Platform_V2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T20:41:59.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CTF_Platform_V2\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CTF_Platform_V2\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T20:38:45.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CTF_Platform_V2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CTF_Platform_V2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T20:07:59.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CTF_Platform_V2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CTF_Platform_V2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T20:03:02.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Challenges\\Index.cshtml",
+              "RelativeDocumentMoniker": "CTF_Platform_V2\\Views\\Challenges\\Index.cshtml",
+              "ToolTip": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Views\\Challenges\\Index.cshtml",
+              "RelativeToolTip": "CTF_Platform_V2\\Views\\Challenges\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:42:25.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChallengesController.cs",
+              "DocumentMoniker": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Controllers\\ChallengesController.cs",
+              "RelativeDocumentMoniker": "CTF_Platform_V2\\Controllers\\ChallengesController.cs",
+              "ToolTip": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Controllers\\ChallengesController.cs",
+              "RelativeToolTip": "CTF_Platform_V2\\Controllers\\ChallengesController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:37:58.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Program.cs",
+              "RelativeDocumentMoniker": "CTF_Platform_V2\\Program.cs",
+              "ToolTip": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\Program.cs",
+              "RelativeToolTip": "CTF_Platform_V2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:36:27.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CTF_Platform_V2\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Documents\\Kau\\4th year\\FirstSemester\\Courses\\CPIS358(Web)\\Project\\CTFv2\\CTF_Platform_V2\\CTF_Platform_V2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CTF_Platform_V2\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-06T18:56:21.264Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
