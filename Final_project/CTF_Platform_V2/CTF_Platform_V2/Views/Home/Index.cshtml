@@ -1,0 +1,123 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Home";
+    bool isLoggedIn = HttpContextAccessor.HttpContext.Session.GetString("Username") != null;
+}
+
+<style>
+    .hero-section {
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        color: white;
+        padding: 100px 0;
+        border-radius: 0 0 50px 50px;
+        margin-top: -20px; 
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    .circle-bg {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+    }
+
+    .c1 {
+        width: 200px;
+        height: 200px;
+        top: -50px;
+        left: -50px;
+    }
+
+    .c2 {
+        width: 300px;
+        height: 300px;
+        bottom: -100px;
+        right: -50px;
+    }
+
+    .feature-card {
+        transition: transform 0.3s, box-shadow 0.3s;
+        border: none;
+        border-radius: 15px;
+        background: white;
+    }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+    .cta-btn {
+        padding: 15px 40px;
+        font-size: 1.2rem;
+        border-radius: 50px;
+        transition: transform 0.2s;
+    }
+
+        .cta-btn:hover {
+            transform: scale(1.05);
+        }
+</style>
+
+<div class="hero-section text-center mb-5">
+    <div class="circle-bg c1"></div>
+    <div class="circle-bg c2"></div>
+
+    <div class="container hero-content">
+        <img src="~/images/logo.png" alt="CTF Logo" style="max-height: 120px; margin-bottom: 20px;" onerror="this.style.display='none'" />
+        <h1 class="display-3 fw-bold mb-3">Master Cybersecurity</h1>
+        <p class="lead mb-5 opacity-75">Join the elite platform. Solve challenges, Hack systems, and Earn your rank.</p>
+
+        @if (isLoggedIn)
+        {
+            <h4 class="mb-4">Welcome back, <span class="fw-bold text-warning">@HttpContextAccessor.HttpContext.Session.GetString("Username")</span>!</h4>
+            <div class="d-flex justify-content-center gap-3">
+                <a asp-controller="Challenges" asp-action="Index" class="btn btn-light text-primary fw-bold cta-btn shadow">
+                    🚀 Start Hacking
+                </a>
+                <a asp-controller="Account" asp-action="Profile" class="btn btn-outline-light fw-bold cta-btn">
+                    📊 My Stats
+                </a>
+            </div>
+        }
+        else
+        {
+            <div class="d-flex justify-content-center gap-3">
+                <a asp-controller="Account" asp-action="Login" class="btn btn-light text-primary fw-bold cta-btn shadow">Login</a>
+                <a asp-controller="Account" asp-action="Register" class="btn btn-outline-light fw-bold cta-btn">Sign Up</a>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="container mb-5">
+    <div class="row text-center g-4">
+        <div class="col-md-4">
+            <div class="card p-4 h-100 feature-card shadow-sm">
+                <div class="mb-3 display-4 text-primary">🛡️</div>
+                <h3 class="fw-bold">Real Scenarios</h3>
+                <p class="text-muted">Practice on challenges derived from real-world vulnerabilities like SQLi, XSS, and Crypto.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4 h-100 feature-card shadow-sm">
+                <div class="mb-3 display-4 text-success">📈</div>
+                <h3 class="fw-bold">Track Progress</h3>
+                <p class="text-muted">Visualize your growth with detailed statistics and a global leaderboard system.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4 h-100 feature-card shadow-sm">
+                <div class="mb-3 display-4 text-warning">🏆</div>
+                <h3 class="fw-bold">Earn Points</h3>
+                <p class="text-muted">Compete with other students and climb the ranks to become the top hacker.</p>
+            </div>
+        </div>
+    </div>
+</div>

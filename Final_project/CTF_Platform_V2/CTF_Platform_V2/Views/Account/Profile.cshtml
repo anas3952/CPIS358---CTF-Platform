@@ -1,0 +1,69 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow border-0 text-center p-4 h-100" style="border-radius: 20px;">
+                <div class="mb-3">
+                    <img src="https://ui-avatars.com/api/?name=@Model.Username&background=0D6EFD&color=fff&size=128" class="rounded-circle shadow-sm" alt="User Avatar">
+                </div>
+                <h3 class="fw-bold">@Model.Username</h3>
+                <p class="text-muted">@Model.Email</p>
+                <span class="badge bg-primary rounded-pill px-3 py-2">@Model.Role</span>
+
+                <hr class="my-4" />
+
+                <div class="d-flex justify-content-around text-center">
+                    <div>
+                        <h4 class="fw-bold text-success">@Model.Score</h4>
+                        <small class="text-muted">Total Score</small>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold text-primary">@Model.SolvedChallenges.Count</h4>
+                        <small class="text-muted">Solved</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="card shadow border-0 p-4 h-100" style="border-radius: 20px;">
+                <h4 class="fw-bold mb-4">🏆 Achievement History</h4>
+
+                @if (Model.SolvedChallenges.Count == 0)
+                {
+                    <div class="alert alert-light text-center">
+                        <p class="mb-0">You haven't solved any challenges yet. <a href="/Challenges" class="fw-bold">Start now!</a></p>
+                    </div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Challenge</th>
+                                    <th>Points</th>
+                                    <th>Date Solved</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.SolvedChallenges)
+                                {
+                                    <tr>
+                                        <td class="fw-bold text-primary">@item.Title</td>
+                                        <td><span class="badge bg-success">+@item.Points</span></td>
+                                        <td class="text-muted">@item.SubmissionTime.ToString("yyyy-MM-dd HH:mm")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
