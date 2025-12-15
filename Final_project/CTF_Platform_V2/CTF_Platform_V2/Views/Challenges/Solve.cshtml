@@ -1,0 +1,42 @@
+﻿@model CTF_Platform_V2.Models.Challenge
+
+@{
+    ViewData["Title"] = "Solve Challenge";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-dark text-white">
+                    <h3>Solve: @Model.Title</h3>
+                </div>
+                <div class="card-body">
+                    <p><strong>Category:</strong> @Model.Category</p>
+                    <p><strong>Points:</strong> @Model.Points</p>
+                    <p><strong>Description:</strong></p>
+                    <p class="alert alert-secondary">@Model.Description</p>
+
+                    @if (TempData["Message"] != null)
+                    {
+                        <div class="alert alert-@TempData["Type"]">
+                            @TempData["Message"]
+                        </div>
+                    }
+
+                    <form asp-action="SubmitFlag" method="post">
+                        <input type="hidden" name="id" value="@Model.Id" />
+
+                        <div class="form-group mb-3">
+                            <label class="fw-bold">Enter Flag:</label>
+                            <input type="text" name="flagAttempt" class="form-control" placeholder="CTF{...}" required />
+                        </div>
+
+                        <button type="submit" class="btn btn-success w-100">Submit Flag</button>
+                        <a asp-action="Index" class="btn btn-secondary w-100 mt-2">Back to List</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
